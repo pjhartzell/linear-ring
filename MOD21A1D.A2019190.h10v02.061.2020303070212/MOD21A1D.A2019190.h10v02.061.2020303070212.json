@@ -1,0 +1,77 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "id": "MOD21A1D.A2019190.h10v02.061.2020303070212",
+    "properties": {
+        "eo:cloud_cover": 32,
+        "datetime": "2019-07-09T00:00:00Z",
+        "start_datetime": "2019-07-09T00:00:00.000Z",
+        "end_datetime": "2019-07-09T23:59:59.000Z"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -140.1099975,
+                    59.6452675
+                ],
+                [
+                    -135.9269374,
+                    69.2113577
+                ],
+                [
+                    176.5451319,
+                    66.356786
+                ],
+                [
+                    -174.4879396,
+                    57.5582845
+                ],
+                [
+                    -140.1099975,
+                    59.6452675
+                ]
+            ]
+        ]
+    },
+    "links": [],
+    "assets": {
+        "lst_view_time": {
+            "href": "./lst_view_time.tif",
+            "type": "image/tiff; application=geotiff; cloud-optimized=true",
+            "title": "lst_view_time",
+            "proj:epsg": null,
+            "proj:wkt2": "PROJCS[\"unnamed\",GEOGCS[\"Unknown datum based upon the custom spheroid\",DATUM[\"Not specified (based on custom spheroid)\",SPHEROID[\"Custom spheroid\",6371007.181,0]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]]],PROJECTION[\"Sinusoidal\"],PARAMETER[\"longitude_of_center\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+            "proj:shape": [
+                1200,
+                1200
+            ],
+            "proj:transform": [
+                926.6254330549995,
+                0.0,
+                -8895604.157333,
+                0.0,
+                -926.6254330558338,
+                7783653.637667,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "roles": [
+                "data"
+            ]
+        }
+    },
+    "bbox": [
+        176.545132,
+        57.558285,
+        -135.926937,
+        69.826575
+    ],
+    "stac_extensions": [
+        "https://stac-extensions.github.io/eo/v1.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v1.1.0/schema.json"
+    ],
+    "collection": "MOD21A1D.v061"
+}
